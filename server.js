@@ -4,6 +4,7 @@ let jwt = require('jsonwebtoken');
 let config = require('./config');
 let middleware = require('./middleware');
 
+
 class HandlerGenerator {
   login (req, res) {
     let username = req.body.username;
